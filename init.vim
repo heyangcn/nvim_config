@@ -258,6 +258,8 @@ let g:ale_linters = {
 
 "auto format code
 autocmd FileType python noremap <buffer> <F6> :call Autopep8()<CR>
+let g:autopep8_disable_show_diff=1
+let g:autopep8_on_save=1
 
 "autocmd FileType python :call coc#config("suggest.autoTrigger", "none")
 
